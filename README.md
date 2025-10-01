@@ -7,4 +7,4 @@ This project uses an interactive, research-based process enhanced by AI to:
 - Recommend the most relevant majors, certificates, and career options through analysis of student responses
 - Connect them with their SRJC House, a built-in support network for belonging and success
 
-The tool uses the widely validated Holland RIASEC career model, and extends it with AI techniques to personalize guidance and make career exploration more accurate.
+The tool uses the widely validated Holland RIASEC career model, and improves it with AI to create more accurate guidance.
