@@ -73,7 +73,7 @@ function Chatbot() {
     const loadData = async () => {
       try {
         // Load pathway data
-        const pathwayResponse = await fetch('/Pathway-Framework-Info.csv');
+        const pathwayResponse = await fetch('/data/Pathway-Framework-Info.csv');
         const pathwayText = await pathwayResponse.text();
         const pathwayLines = pathwayText.split('\r\n').slice(1).filter(line => line.trim());
         const pathways = pathwayLines.map(line => {
@@ -84,7 +84,7 @@ function Chatbot() {
         console.log('Pathways loaded:', pathways);
 
         // Load majors data
-        const majorsResponse = await fetch('/SRJC_Majors_HollandCoded.csv');
+        const majorsResponse = await fetch('/data/SRJC_Majors_HollandCoded.csv');
         const majorsText = await majorsResponse.text();
         const majorsLines = majorsText.split('\r\n').slice(1).filter(line => line.trim());
         const majors = majorsLines.map(line => {
@@ -95,7 +95,7 @@ function Chatbot() {
         console.log('Majors loaded:', majors.length);
 
         // Load certificates data
-        const certsResponse = await fetch('/SRJC_Certificates_HollandCoded.csv');
+        const certsResponse = await fetch('/data/SRJC_Certificates_HollandCoded.csv');
         const certsText = await certsResponse.text();
         const certsLines = certsText.split('\r\n').slice(1).filter(line => line.trim());
         const certificates = certsLines.map(line => {
