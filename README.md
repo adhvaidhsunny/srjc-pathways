@@ -1,5 +1,5 @@
 ## **🎓 SRJC Pathway Explorer - WON 3RD PLACE**
-SRJC Pathway Explorer is an AI-powered guidance system created to help students at Santa Rosa Junior College find their best academic and career direction. It was developed at the AWS Cal Poly SLO AI Camp 2025 (WON 3RD PLACE).
+SRJC Pathway Explorer is an AI-powered guidance system created to help students at Santa Rosa Junior College find their best academic and career direction. It was developed at the AWS CSU SLO AI Event 2025 (WON 3RD PLACE).
 
 This project uses an interactive, research-based process + AI to:
 - Identify students’ core interests, strengths, and personality traits through structured inputs
